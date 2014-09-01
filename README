@@ -1,0 +1,17 @@
+=====
+nlcsh
+=====
+
+nlcsh is a not finished i386 only and barely usable shell that does not use
+any libc. This shell is only for personal pedagogic purpose.
+
+
+Build
+=====
+
+make
+
+Exec
+====
+
+./build/nlcsh

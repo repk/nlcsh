@@ -101,6 +101,7 @@ static int parsecmdstring(struct cmd **c, char s[LINESZ])
 				return -1;
 			_c->out = pipes[p][1];
 			_c->next = _c + 1;
+			_c->argv[j] = (char *)NULL;
 			++_c;
 			initcmd(_c);
 			_c->in = pipes[p][0];
